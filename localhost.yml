@@ -1,7 +1,7 @@
 ---
 # Deploy single page sample website
 # ansible-playbook -i hosts configure.yml --ask-become-pass
-- hosts: localhost
+- hosts: pull_mode_hosts
   become: yes
   
   roles:
